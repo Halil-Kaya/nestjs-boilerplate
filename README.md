@@ -1,45 +1,42 @@
 # NestJS Boilerplate
 
-> Hey ✋Are you looking an example nestjs project? or you want to make a project, but you don't want to waste time with
-> implementing authentication, mongo and redis connection adding logging and swagger? or you just want to see new code
-> consepts. welcome to my repo.
+>Hey there! Are you looking for an example NestJS project? Or perhaps you want to start a project without wasting time on implementing authentication, setting up connections to MongoDB and Redis, adding logging and Swagger? Maybe you just want to explore new code concepts. Well, you've come to the right place - welcome to my repository!
 
-> This repo is my boilerplate project. I'm building my new projects from this repo to don't waste time.
+>This repository serves as my boilerplate project, which I use as a foundation for my new projects to save time.
 
 ### Includes;
 
--   E2E tests
--   Authentication (Jwt token)
--   daily logging with winston
--   usefully decorators
--   interceptor to transform response and logging
--   filter to error handling
--   caching with redis
--   handling race condition
--   mongo
--   docker
+- E2E tests
+- Authentication (JWT tokens)
+- Daily logging with Winston
+- Useful decorators
+- Interceptor for response transformation and logging
+- Error handling filter
+- Caching with Redis
+- Handling race conditions
+- MongoDB integration
+- Docker configuration
 
-## To run project
+## Running the Project
 
 ```bash
 $ cd docker
 $ docker-compose up 
 ```
-it will up on http://localhost:3050
+The project will be accessible at http://localhost:3050.
 
-## To stop project
+
+## Stopping the Project
 
 ```bash
 $ docker-compose down
 ```
 
-### To reach Api document
+### Accessing API Documentation
 >http://localhost:3050/api
 
 ### Testing
-
-> I'm using jest for e2e testing. you can find my test scripts in 'test' folder.
-
+> I utilize Jest for E2E testing. You can find the test scripts in the 'test' folder.
 ```bash
 test
 ├── api
@@ -66,3 +63,6 @@ test
 ```bash
 $ npm run test
 ```
+
+### License
+> There is no any license for this project. You are free to use and modify the code as you see fit.
