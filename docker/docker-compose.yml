@@ -1,14 +1,14 @@
 version: '3.9'
 
 services:
-    channel-challenge-base-node:
-        image: channel-challenge-base-node
+    boilerplate-base-node:
+        image: boilerplate-base-node
         build:
             context: ..
             dockerfile: docker/Dockerfile
 
-    channel-challenge:
-        image: channel-challenge-base-node
+    boilerplate:
+        image: boilerplate-base-node
         ports:
             - 3050:3050
         networks:
